@@ -1,0 +1,23 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Heliomar P. Marques",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [],
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1472.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.124",
+    "ts-node": "^10.9.1"
+  }
+}
